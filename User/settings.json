@@ -1,0 +1,37 @@
+{
+    "workbench.iconTheme": null,
+    "workbench.colorTheme": "Monokai Dimmed",
+    // ファイル全般
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    // エディタ
+    "workbench.editor.enablePreview": false,
+    "editor.renderWhitespace": "all",
+    "[php]" : {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[html]" : {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    // php
+    "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
+    "php.executablePath": "D:\\xampp\\php\\php.exe",
+    // 拡張子の関連付け
+    "files.associations": {
+        // bladeファイルを開いたときに右下にHTMLと表示されていればOK
+        "*.blade.php": "html"
+    },
+    // TODO highlight
+    "todohighlight.exclude": "{**/vendor/**,**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/public/js/**}",
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "editor.formatOnType": true,
+    "markdown.styles": [
+        "D:\\Users\\shimada\\AppData\\Roaming\\Code\\User\\md_preview.css"
+    ]
+}

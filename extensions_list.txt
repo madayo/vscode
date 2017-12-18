@@ -1,0 +1,5 @@
+AlanWalk.markdown-toc
+felixfbecker.php-intellisense
+formulahendry.auto-rename-tag
+HookyQR.beautify
+wayou.vscode-todo-highlight
