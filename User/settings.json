@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": null,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai",
     // ファイル全般
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
