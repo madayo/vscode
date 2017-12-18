@@ -1,5 +1,5 @@
-AlanWalk.markdown-toc
-felixfbecker.php-intellisense
-formulahendry.auto-rename-tag
-HookyQR.beautify
-wayou.vscode-todo-highlight
+AlanWalk.markdown-toc@1.5.6
+felixfbecker.php-intellisense@2.1.0
+formulahendry.auto-rename-tag@0.0.15
+HookyQR.beautify@1.1.1
+wayou.vscode-todo-highlight@0.5.11

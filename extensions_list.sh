@@ -1,2 +1,2 @@
 #! /bin/sh
-code --list-extensions > extensions_list.txt
+code --list-extensions --show-versions> extensions_list.txt
