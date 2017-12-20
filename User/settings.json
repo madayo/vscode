@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": null,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Laravel (rainglow)",
     // ファイル全般
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,

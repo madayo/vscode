@@ -1,4 +1,5 @@
 AlanWalk.markdown-toc@1.5.6
+daylerees.rainglow@1.2.0
 felixfbecker.php-intellisense@2.1.0
 formulahendry.auto-rename-tag@0.0.15
 HookyQR.beautify@1.1.1
