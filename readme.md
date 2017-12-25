@@ -1,4 +1,9 @@
 # 使い方  
+## 設定ファイルをgit管理下のファイルに紐付ける
+```sh
+> cd {UserHome}\AppData\Roaming\Code
+> mklink /D User {GitCloneDir}\User
+```  
 ## Extensionsのインストール  
 ```sh
 sh extensions_install.sh

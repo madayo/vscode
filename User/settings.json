@@ -19,8 +19,8 @@
         "files.trimTrailingWhitespace": false
     },
     // php
-    "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
-    "php.executablePath": "D:\\xampp\\php\\php.exe",
+    "php.validate.executablePath": "C:\\php\\php.exe",
+    "php.executablePath": "C:\\php\\php.exe",
     // 拡張子の関連付け
     "files.associations": {
         // bladeファイルを開いたときに右下にHTMLと表示されていればOK
@@ -33,5 +33,6 @@
     "editor.formatOnType": true,
     "markdown.styles": [
         "D:\\Users\\shimada\\AppData\\Roaming\\Code\\User\\md_preview.css"
-    ]
+    ],
+    "git.path": "C:\\msys64\\usr\\bin\\git.exe"
 }
