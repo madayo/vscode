@@ -1,6 +1,7 @@
 AlanWalk.markdown-toc@1.5.6
-daylerees.rainglow@1.2.0
-felixfbecker.php-intellisense@2.1.0
+daylerees.rainglow@1.5.2
+felixfbecker.php-intellisense@2.2.5
 formulahendry.auto-rename-tag@0.0.15
 HookyQR.beautify@1.1.1
+linyang95.php-symbols@2.1.0
 wayou.vscode-todo-highlight@0.5.11
