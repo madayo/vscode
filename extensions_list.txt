@@ -4,4 +4,5 @@ felixfbecker.php-intellisense@2.2.5
 formulahendry.auto-rename-tag@0.0.15
 HookyQR.beautify@1.1.1
 linyang95.php-symbols@2.1.0
+shalldie.background@1.1.17
 wayou.vscode-todo-highlight@0.5.11
