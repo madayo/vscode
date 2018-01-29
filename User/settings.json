@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": null,
-    "workbench.colorTheme": "Peacocks In Space Contrast (rainglow)",
+    "workbench.colorTheme": "Peacocks In Space (rainglow)",
     // ファイル全般
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
@@ -34,5 +34,11 @@
     "markdown.styles": [
         "D:\\Users\\shimada\\AppData\\Roaming\\Code\\User\\md_preview.css"
     ],
-    "git.path": "C:\\msys64\\usr\\bin\\git.exe"
+    "git.path": "C:\\msys64\\usr\\bin\\git.exe",
+    "background.enabled": false,
+    // gitignore対象ファイルを検索対象とするか否か、基本trueが便利だがライブラリの中除きたいときにはfalseの方が都合が良い
+    "search.useIgnoreFiles": false,
+    // fullpath in status bar
+    // 開いているフォルダを基点とした相対パス / trueで絶対パス
+    "ActiveFileInStatusBar.fullpath": false
 }
