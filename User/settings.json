@@ -23,8 +23,8 @@
     "php.executablePath": "C:\\php\\php.exe",
     // 拡張子の関連付け
     "files.associations": {
-        // bladeファイルを開いたときに右下にHTMLと表示されていればOK
-        "*.blade.php": "html"
+        "*.blade.php": "html", // bladeファイルを開いたときに右下にHTMLと表示されていればOK
+        "*.twig": "html"
     },
     // TODO highlight
     "todohighlight.exclude": "{**/vendor/**,**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/public/js/**}",
