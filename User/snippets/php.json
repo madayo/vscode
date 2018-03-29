@@ -16,7 +16,7 @@
 	 	"prefix" : "debug",
 	 	"body" : [
 	 		"foreach (debug_backtrace() as \\$debug) {",
-			"    echo '<span style=\"color:red\">' . \\$debug['class'] . '</span> -> <span style=\"color:blue\">' . \\$debug['function'] . '</span>(' . \\$debug['line'] . ') args : ' . json_encode(\\$debug['args']) . '<br>';",
+			"    echo '<span style=\"color:red\">' . $debug['file'] . '</span> (' . $debug['line'] . ') args : ' . json_encode($debug['args']) . '<br>';",
 	 		"}"
 	 	]
 	}
