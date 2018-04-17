@@ -40,9 +40,5 @@
     // 開いているフォルダを基点とした相対パス / trueで絶対パス
     "ActiveFileInStatusBar.fullpath": false,
     // background-image
-    "background.enabled": false,
-    // vscode-custom-css
-    "vscode_custom_css.imports": [
-        "file:///C:/msys64/home/userName/vscode/css/tree.css"
-    ]
+    "background.enabled": false
 }

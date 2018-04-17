@@ -1,5 +1,4 @@
 AlanWalk.markdown-toc@1.5.6
-be5invis.vscode-custom-css@2.7.0
 daylerees.rainglow@1.5.2
 felixfbecker.php-intellisense@2.3.1
 formulahendry.auto-rename-tag@0.0.15
