@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Peacocks In Space (rainglow)",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": -1,
