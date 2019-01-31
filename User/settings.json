@@ -4,7 +4,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": -1,
-    "git.path": "D:/msys64/usr/bin/git.exe",
+    "git.path": "C:/msys64/usr/bin/git.exe",
     // ファイル全般
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
@@ -13,6 +13,10 @@
     "editor.formatOnType": true,
     "[php]" : {
         "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[sh]" : {
+        "editor.tabSize": 2,
         "editor.insertSpaces": true
     },
     "[html]" : {
