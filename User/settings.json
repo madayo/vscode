@@ -11,6 +11,17 @@
     // エディタ
     "editor.renderWhitespace": "all",
     "editor.formatOnType": true,
+    // エディタ ファイル別
+    "[json]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": true
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
     "[php]" : {
         "editor.tabSize": 4,
         "editor.insertSpaces": true
