@@ -1,12 +1,13 @@
 AlanWalk.markdown-toc@1.5.6
-be5invis.vscode-custom-css@3.0.2
+be5invis.vscode-custom-css@3.0.3
 daylerees.rainglow@1.5.2
-esbenp.prettier-vscode@1.7.2
+esbenp.prettier-vscode@1.8.1
 felixfbecker.php-intellisense@2.3.10
 formulahendry.auto-rename-tag@0.0.15
-HookyQR.beautify@1.4.7
+HookyQR.beautify@1.4.8
 linyang95.php-symbols@2.1.0
-PKief.material-icon-theme@3.6.1
+mosapride.zenkaku@0.0.3
+PKief.material-icon-theme@3.6.3
 RoscoP.ActiveFileInStatusBar@1.0.3
 shalldie.background@1.1.19
 shd101wyy.markdown-preview-enhanced@0.3.11

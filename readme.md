@@ -15,3 +15,12 @@ git add extensions_list.txt
 git commit -m 'hoge'
 git push origin master
 ```  
+## extensions のカスタマイズ
+### zenkaku
+全角スペースの強調表示を、vscode起動時に強制的に有効化する。  
+ユーザ名、バージョンについては適宜読み替えること。  
+```sh
+vi /c/Users/username/.vscode/extensions/mosapride.zenkaku-0.0.3/extension.js
+
+var enabled = true;
+``  `
