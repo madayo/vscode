@@ -34,6 +34,10 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true
     },
+    "[javascript]" : {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
