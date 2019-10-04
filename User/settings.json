@@ -75,5 +75,8 @@
         "background-size": "50%",
         "opacity": 0.3
     },
-    "workbench.sideBar.location": "left"
+    "workbench.sideBar.location": "left",
+    "editor.fontFamily": "Ricty Diminished, 'Courier New', monospace",
+    "files.eol": "\n",
+    "prettier.endOfLine": "lf"
 }
