@@ -13,6 +13,7 @@ mosapride.zenkaku
 octref.vetur
 oderwat.indent-rainbow
 PKief.material-icon-theme
+ritwickdey.LiveServer
 RoscoP.ActiveFileInStatusBar
 shalldie.background
 shardulm94.trailing-spaces
