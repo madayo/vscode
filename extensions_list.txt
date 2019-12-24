@@ -2,6 +2,7 @@ AlanWalk.markdown-toc
 be5invis.vscode-custom-css
 CoenraadS.bracket-pair-colorizer
 daylerees.rainglow
+eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 felixfbecker.php-intellisense

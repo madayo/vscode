@@ -5,7 +5,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "window.zoomLevel": 0,
-    "git.path": "C:/msys64/usr/bin/git.exe",
     // エクスプローラ
     "explorer.confirmDragAndDrop": false, // D&D 時の確認
     "explorer.confirmDelete": false, // 削除時の確認
@@ -22,12 +21,12 @@
     "[json]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": true
+        "editor.autoIndent": "keep"
     },
     "[yaml]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": false
+        "editor.autoIndent": "none"
     },
     "[php]": {
         "editor.tabSize": 4,
