@@ -27,5 +27,5 @@ var enabled = true;
 ## merge 操作の hook
 ./git/hooks/post-merge の作成
 ```sh
-echo -e "sh ./extensions_install.sh\nsh ./extensions_list.sh\ngit status" > .git/hooks/post-merge
+echo -e '#!/bin/sh\nsh ./extensions_install.sh\nsh ./extensions_list.sh\ngit status' > .git/hooks/post-merge
 ```
