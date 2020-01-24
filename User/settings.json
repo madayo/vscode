@@ -16,7 +16,7 @@
     "editor.fontFamily": "Ricty Diminished, 'Courier New', monospace",
     "editor.renderWhitespace": "all", // 空白の表示
     "editor.formatOnType": true,
-    "editor.formatOnSave": true, // 保存時のフォーマッタ適用
+    "editor.formatOnSave": true, // 保存時のフォーマッタ適用。拡張子ごとの設定は別途
     // エディタ ファイル別
     "[json]": {
         "editor.insertSpaces": true,
@@ -45,7 +45,8 @@
         "editor.insertSpaces": true
     },
     "[markdown]": {
-        "files.trimTrailingWhitespace": false
+        "files.trimTrailingWhitespace": false,
+        "editor.formatOnSave": false
     },
     // php
     "php.validate.executablePath": "C:/php/php.exe",
