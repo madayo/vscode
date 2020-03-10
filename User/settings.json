@@ -4,7 +4,8 @@
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 0,
+    "git.path": "C:/git/git.exe",
+    "window.zoomLevel": 1,
     // エクスプローラ
     "explorer.confirmDragAndDrop": false, // D&D 時の確認
     "explorer.confirmDelete": false, // 削除時の確認
@@ -38,7 +39,8 @@
     },
     "[html]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false
     },
     "[javascript]": {
         "editor.tabSize": 2,
@@ -82,6 +84,7 @@
         "background-size": "50%",
         "opacity": 0.3
     },
+    "background.useFront": false,
     // prettier
     "prettier.endOfLine": "lf",
 }
