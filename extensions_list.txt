@@ -2,13 +2,16 @@ AlanWalk.markdown-toc
 be5invis.vscode-custom-css
 CoenraadS.bracket-pair-colorizer
 daylerees.rainglow
+donjayamanne.githistory
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 felixfbecker.php-intellisense
 formulahendry.auto-rename-tag
 HookyQR.beautify
+janisdd.vscode-edit-csv
 linyang95.php-symbols
+mechatroner.rainbow-csv
 mikestead.dotenv
 mosapride.zenkaku
 octref.vetur
