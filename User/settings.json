@@ -5,7 +5,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "git.path": "C:/git/git.exe",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": -1,
     // エクスプローラ
     "explorer.confirmDragAndDrop": false, // D&D 時の確認
     "explorer.confirmDelete": false, // 削除時の確認
@@ -22,7 +22,8 @@
     "[json]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": "keep"
+        "editor.autoIndent": "keep",
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[yaml]": {
         "editor.insertSpaces": true,
@@ -40,11 +41,19 @@
     "[html]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.insertSpaces": true
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
