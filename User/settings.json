@@ -5,7 +5,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "git.path": "C:/git/git.exe",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     // エクスプローラ
     "explorer.confirmDragAndDrop": false, // D&D 時の確認
     "explorer.confirmDelete": false, // 削除時の確認
@@ -70,10 +70,10 @@
     // gitignore 対象ファイルを検索対象とするか否か、基本 true が便利だがライブラリの中除きたいときには false の方が都合が良い
     "search.useIgnoreFiles": false,
     // ---------------- extension
-    // fullpath in status bar
+    // ------ fullpath in status bar
     // 開いているフォルダを基点とした相対パス / trueで絶対パス
     "ActiveFileInStatusBar.fullpath": false,
-    // background-image
+    // ------  background-image
     "background.enabled": true,
     "background.useDefault": false,
     "background.customImages": [
@@ -91,6 +91,20 @@
         "opacity": 0.2
     },
     "background.useFront": true,
-    // prettier
+    // ------  prettier
     "prettier.endOfLine": "lf",
+    "material-icon-theme.folders.color": "#7cb342",
+    "material-icon-theme.folders.theme": "specific",
+    // ------ indent rainbow
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    // The indent color if the number of spaces is not a multiple of "tabSize".
+    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+    // The indent color when there is a mix between spaces and tabs.
+    // To be disabled this coloring set this to an empty string.
+    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)"
 }
