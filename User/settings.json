@@ -71,6 +71,7 @@
     "search.useIgnoreFiles": false,
     // ---------------- extension
     // ------ fullpath in status bar
+    "ActiveFileInStatusBar.enable": true,
     // 開いているフォルダを基点とした相対パス / trueで絶対パス
     "ActiveFileInStatusBar.fullpath": false,
     // ------  background-image
