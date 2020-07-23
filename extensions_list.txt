@@ -14,6 +14,7 @@ linyang95.php-symbols
 mechatroner.rainbow-csv
 mikestead.dotenv
 mosapride.zenkaku
+nickdemayo.vscode-json-editor
 octref.vetur
 oderwat.indent-rainbow
 PKief.material-icon-theme
