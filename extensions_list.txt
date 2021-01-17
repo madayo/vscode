@@ -23,5 +23,7 @@ RoscoP.ActiveFileInStatusBar
 shalldie.background
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
+sibiraj-s.vscode-scss-formatter
 SirTori.indenticator
+s-nlf-fh.glassit
 wayou.vscode-todo-highlight
