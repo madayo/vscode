@@ -14,7 +14,10 @@
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true, // 末尾の空白除去
     // エディタ
-    "editor.fontFamily": "Ricty Diminished, 'Courier New', monospace",
+    "editor.fontFamily": "Ricty Diminished, 'Courier New', monospace", // 英字、記号ともにはっきりしててみやすい
+    // "editor.fontFamily": "Cascadia Code, 'Courier New', monospace", // qg の区別がつかなくて微妙だった
+    // "editor.fontFamily": "Fira Code", // 記号の見た目がちょっと好みと違った
+    "editor.fontLigatures": true,
     "editor.renderWhitespace": "all", // 空白の表示
     "editor.formatOnType": true,
     "editor.formatOnSave": true, // 保存時のフォーマッタ適用。拡張子ごとの設定は別途
