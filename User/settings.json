@@ -1,11 +1,15 @@
 {
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#588ca3cc", // 現在開いているタブの背景色
+        "quickInputList.focusBackground": "#5b72ae", // Ctrl + P の Quick Open のハイライト
+        "quickInputList.focusForeground": "#dddddd", // Ctrl + P の Quick Open のハイライト
+    },
     "workbench.colorTheme": "Peacocks In Space (rainglow)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "git.path": "C:/git/git.exe",
-    "window.zoomLevel": -1,
     // エクスプローラ
     "explorer.confirmDragAndDrop": false, // D&D 時の確認
     "explorer.confirmDelete": false, // 削除時の確認
@@ -120,6 +124,8 @@
     "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
     "extensions.ignoreRecommendations": false,
 
-    "glassit.alpha": 235,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "glassit.alpha": 240,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.untitled.hint": "hidden",
+    "window.zoomLevel": -1
 }
