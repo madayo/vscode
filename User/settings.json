@@ -18,13 +18,17 @@
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true, // 末尾の空白除去
     // エディタ
-    "editor.fontFamily": "Ricty Diminished, 'Courier New', monospace", // 英字、記号ともにはっきりしててみやすい
+    "editor.fontFamily": "Ricty Diminished Discord, 'Courier New', monospace", // 英字、記号ともにはっきりしててみやすい
     // "editor.fontFamily": "Cascadia Code, 'Courier New', monospace", // qg の区別がつかなくて微妙だった
     // "editor.fontFamily": "Fira Code", // 記号の見た目がちょっと好みと違った
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all", // 空白の表示
     "editor.formatOnType": true,
     "editor.formatOnSave": true, // 保存時のフォーマッタ適用。拡張子ごとの設定は別途
+    // 色設定
+    "editor.tokenColorCustomizations": {
+        "comments": "#5c98af" // コメント
+    },
     // エディタ ファイル別
     "[json]": {
         "editor.insertSpaces": true,
@@ -108,6 +112,7 @@
     "background.useFront": true,
     // ------  prettier
     "prettier.endOfLine": "lf",
+    // ------  material-icon
     "material-icon-theme.folders.color": "#7cb342",
     "material-icon-theme.folders.theme": "specific",
     // ------ indent rainbow
@@ -122,10 +127,13 @@
     // The indent color when there is a mix between spaces and tabs.
     // To be disabled this coloring set this to an empty string.
     "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+
     "extensions.ignoreRecommendations": false,
 
     "glassit.alpha": 240,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "workbench.editor.untitled.hint": "hidden",
+    // ------  todo highlight
+    "todohighlight.isEnable": true,
     "window.zoomLevel": -1
 }
