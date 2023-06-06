@@ -1,139 +1,173 @@
 {
-    "workbench.colorCustomizations": {
-        "tab.activeBackground": "#588ca3cc", // 現在開いているタブの背景色
-        "quickInputList.focusBackground": "#5b72ae", // Ctrl + P の Quick Open のハイライト
-        "quickInputList.focusForeground": "#dddddd", // Ctrl + P の Quick Open のハイライト
-    },
-    "workbench.colorTheme": "Peacocks In Space (rainglow)",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "left",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.enablePreview": false,
-    "git.path": "C:/git/git.exe",
-    // エクスプローラ
-    "explorer.confirmDragAndDrop": false, // D&D 時の確認
-    "explorer.confirmDelete": false, // 削除時の確認
-    // ファイル全般
-    "files.autoSave": "afterDelay",
-    "files.eol": "\n",
-    "files.trimTrailingWhitespace": true, // 末尾の空白除去
-    // エディタ
-    "editor.fontFamily": "Ricty Diminished Discord, 'Courier New', monospace", // 英字、記号ともにはっきりしててみやすい
-    // "editor.fontFamily": "Cascadia Code, 'Courier New', monospace", // qg の区別がつかなくて微妙だった
-    // "editor.fontFamily": "Fira Code", // 記号の見た目がちょっと好みと違った
-    "editor.fontLigatures": true,
-    "editor.renderWhitespace": "all", // 空白の表示
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true, // 保存時のフォーマッタ適用。拡張子ごとの設定は別途
-    // 色設定
-    "editor.tokenColorCustomizations": {
-        "comments": "#5c98af" // コメント
-    },
-    // エディタ ファイル別
-    "[json]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "keep",
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "none"
-    },
-    "[php]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true
-    },
-    "[sh]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[html]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css,less]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-        "editor.formatOnSave": false
-    },
-    // php
-    "php.validate.executablePath": "C:/php/php.exe",
-    "php.executablePath": "C:/php/php.exe",
-    // 拡張子の関連付け
-    "files.associations": {
-        "*.blade.php": "html", // bladeファイルを開いたときに右下にHTMLと表示されていればOK
-        "*.twig": "html"
-    },
-    // gitignore 対象ファイルを検索対象とするか否か、基本 true が便利だがライブラリの中除きたいときには false の方が都合が良い
-    "search.useIgnoreFiles": false,
-    // ---------------- extension
-    // ------ fullpath in status bar
-    "ActiveFileInStatusBar.enable": true,
-    // 開いているフォルダを基点とした相対パス / trueで絶対パス
-    "ActiveFileInStatusBar.fullpath": false,
-    // ------  background-image
-    "background.enabled": true,
-    "background.useDefault": false,
-    "background.customImages": [
-        "file:///C:/Users/userName/Pictures/ham1.png",
-        "file:///C:/Users/userName/Pictures/ham2.png",
-        "file:///C:/Users/userName/Pictures/ham3.png"
-    ],
-    "background.style": {
-        "content": "''",
-        "pointer-events": "none",
-        "position": "absolute",
-        "z-index": "99999",
-        "background-repeat": "no-repeat",
-        "background-size": "contain",
-        "opacity": 0.2
-    },
-    "background.useFront": true,
-    // ------  prettier
-    "prettier.endOfLine": "lf",
-    // ------  material-icon
-    "material-icon-theme.folders.color": "#7cb342",
-    "material-icon-theme.folders.theme": "specific",
-    // ------ indent rainbow
-    "indentRainbow.colors": [
-        "rgba(255,255,64,0.07)",
-        "rgba(127,255,127,0.07)",
-        "rgba(255,127,255,0.07)",
-        "rgba(79,236,236,0.07)"
-    ],
-    // The indent color if the number of spaces is not a multiple of "tabSize".
-    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
-    // The indent color when there is a mix between spaces and tabs.
-    // To be disabled this coloring set this to an empty string.
-    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#66c2e9cc", // 現在開いているタブの背景色
+    "quickInputList.focusBackground": "#5b72ae", // Ctrl + P の Quick Open のハイライト
+    "quickInputList.focusForeground": "#dddddd", // Ctrl + P の Quick Open のハイライト
+    "statusBar.background": "#b6a82a" // 下部のステータスバー
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
+  "git.path": "C:/git/git.exe",
+  // エクスプローラ
+  "explorer.confirmDragAndDrop": false, // D&D 時の確認
+  "explorer.confirmDelete": false, // 削除時の確認
+  // ファイル全般
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true, // 末尾の空白除去
 
-    "extensions.ignoreRecommendations": false,
+  // エディタ
+  "editor.fontFamily": "Ricty Diminished Discord, 'Courier New', monospace", // 英字、記号ともにはっきりしててみやすい
+  // "editor.fontFamily": "Martian Mono, 'Courier New', monospace", // ネットでおすすめされていたけど横にのぺーと伸びてて見にくかった
+  // "editor.fontFamily": "Cascadia Code, 'Courier New', monospace", // qg の区別がつかなくて微妙だった
+  // "editor.fontFamily": "Fira Code", // 記号の見た目がちょっと好みと違った
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all", // 空白の表示
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true, // 保存時のフォーマッタ適用。拡張子ごとの設定は別途
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 色設定
+  "editor.tokenColorCustomizations": {
+    "comments": "#5c98af" // コメント
+  },
+  // エディタ ファイル別
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "none"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[sh]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false
+  },
+  "[css,less]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "[javascript,typescript,javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "[tsx]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.formatOnSave": false
+  },
+  // php
+  "php.validate.executablePath": "C:/php/php.exe",
+  "php.executablePath": "C:/php/php.exe",
+  // 拡張子の関連付け
+  "files.associations": {
+    // 以下に記述した拡張子ファイルを開いたときに右下に対応するファイル種別が表示されればOK
+    "*.css": "postcss",
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.blade.php": "html",
+    "*.twig": "html",
+    "*.vue": "vue"
+  },
+  // gitignore 対象ファイルを検索対象とするか否か、基本 true が便利だがライブラリの中除きたいときには false の方が都合が良い
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    // "**/node_modules": false
+  },
+  // ---------------- extension
+  // ------ fullpath in status bar
+  "ActiveFileInStatusBar.enable": true,
+  // 開いているフォルダを基点とした相対パス / trueで絶対パス
+  "ActiveFileInStatusBar.fullpath": false,
+  // ------  background-image
+  "background.enabled": true,
+  "background.useDefault": false,
+  "background.customImages": [
+    "file:///C:/Users/userName/Pictures/ham1.png",
+    "file:///C:/Users/userName/Pictures/ham2.png",
+    "file:///C:/Users/userName/Pictures/ham3.png"
+  ],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "opacity": 0.2
+  },
+  "background.useFront": true,
+  // ------  prettier
+  "prettier.endOfLine": "lf",
+  // ------  material-icon
+  "material-icon-theme.folders.color": "#7cb342",
+  "material-icon-theme.folders.theme": "specific",
+  // ------ indent rainbow
+  // --- 設定変更後は vscode をリロードしないと反映されない
+  "indentRainbow.colors": [
+    "rgba(128,  64,  64, 0.3)", // 赤
+    "rgba(128,  96,  32, 0.5)", // 橙
+    "rgba(128, 128,  32, 0.5)", // 黄
+    "rgba( 32, 128,  32, 0.5)", // 緑
+    "rgba( 32,  64, 128, 0.5)", // 青
+    "rgba(128,  64, 128, 0.5)" // 紫
+  ],
+  // The indent color if the number of spaces is not a multiple of "tabSize".
+  "indentRainbow.errorColor": "rgba(255,127,80,0.7)",
+  // The indent color when there is a mix between spaces and tabs.
+  // To be disabled this coloring set this to an empty string.
+  "indentRainbow.tabmixColor": "rgba(255,127,80,0.7)",
 
-    "glassit.alpha": 240,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.untitled.hint": "hidden",
-    // ------  todo highlight
-    "todohighlight.isEnable": true,
-    "window.zoomLevel": -1
+  "extensions.ignoreRecommendations": false,
+
+  "glassit.alpha": 255,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  // ------  todo highlight
+  "todohighlight.isEnable": true,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Rainbow Contrast (rainglow)",
+  "bracketPairColorizer.depreciation-notice": false,
+  "css.validate": false,
+  "stylelint.validate": ["css", "less", "postcss", "vue", "scss"],
+  "files.maxMemoryForLargeFilesMB": 0,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }
