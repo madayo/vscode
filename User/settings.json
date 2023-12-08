@@ -14,7 +14,8 @@
   "explorer.confirmDragAndDrop": false, // D&D 時の確認
   "explorer.confirmDelete": false, // 削除時の確認
   // ファイル全般
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "afterDelay", // 即保存ではなく若干遅延して保存
+  "files.autoSaveDelay": 500, // 単位は ms
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true, // 末尾の空白除去
 
@@ -67,7 +68,7 @@
     "editor.insertSpaces": true,
     "editor.formatOnSave": true
   },
-  "[javascript,typescript,javascriptreact]": {
+  "[javascript,typescript,javascriptreact,js,ts]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true
@@ -159,15 +160,29 @@
 
   "glassit.alpha": 255,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editor.untitled.hint": "hidden",
   // ------  todo highlight
   "todohighlight.isEnable": true,
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Rainbow Contrast (rainglow)",
   "bracketPairColorizer.depreciation-notice": false,
   "css.validate": false,
+  "stylelint.enable": true,
   "stylelint.validate": ["css", "less", "postcss", "vue", "scss"],
   "files.maxMemoryForLargeFilesMB": 0,
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.editor.empty.hint": "hidden",
+  "todohighlight.exclude": [
+    "**/vendor/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/public/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ]
 }
