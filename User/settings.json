@@ -24,6 +24,8 @@
   // "editor.fontFamily": "Martian Mono, 'Courier New', monospace", // ネットでおすすめされていたけど横にのぺーと伸びてて見にくかった
   // "editor.fontFamily": "Cascadia Code, 'Courier New', monospace", // qg の区別がつかなくて微妙だった
   // "editor.fontFamily": "Fira Code", // 記号の見た目がちょっと好みと違った
+  // "editor.fontFamily": "UDEV Gothic NF Regular, 'Courier New', monospace", //
+  // 0xProto Regular, Monaspace あたりも検討したけどしっくりこない
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "all", // 空白の表示
   "editor.formatOnType": true,
@@ -160,17 +162,21 @@
 
   "glassit.alpha": 255,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  // ------  todo highlight
-  "todohighlight.isEnable": true,
   "workbench.colorTheme": "Rainbow Contrast (rainglow)",
   "bracketPairColorizer.depreciation-notice": false,
-  "css.validate": false,
+  "css.validate": false /* VSCODE 内臓の linter を停止させている */,
+  "less.validate": false,
+  "scss.validate": false,
+  /* 保存時に自動で stylelint させようとしているけど、なにか様子がおかしい。ただし何もフォーマットさせないよりはまだマシ。npm run fix も別途実行すること */
   "stylelint.enable": true,
+  "stylelint.configFile": "./.stylelintrc.cjs", // 必要に応じてプロジェクトごとに設定ファイルの位置を指定すること
   "stylelint.validate": ["css", "less", "postcss", "vue", "scss"],
   "files.maxMemoryForLargeFilesMB": 0,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "workbench.editor.empty.hint": "hidden",
+  // ------  todo highlight
+  "todohighlight.isEnable": true,
   "todohighlight.exclude": [
     "**/vendor/**",
     "**/node_modules/**",
@@ -184,5 +190,6 @@
     "**/*.min.*",
     "**/*.map",
     "**/.next/**"
-  ]
+  ],
+  "editor.stickyScroll.scrollWithEditor": false
 }
